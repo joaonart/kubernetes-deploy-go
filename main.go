@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"net/http"
 	"log"
+	"net/http"
 )
 
-const webContent = "j-nart:v1"
+const webContent = "j-nart:v2"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
