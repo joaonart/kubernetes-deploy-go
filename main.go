@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-const webContent = "j-nart:v2"
+const webContent = "j-nart:v3"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
